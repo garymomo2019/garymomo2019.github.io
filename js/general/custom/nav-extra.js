@@ -69,6 +69,19 @@ document.writeln("						<li><a>依曲風</a></li>");
 document.writeln("					</ul>");
 document.writeln("				</li>");
 
+document.writeln("				<li class='dropdown'>");
+document.writeln("					<a class='dropdown-toggle' data-toggle='dropdown'>情誼 -緣-<span class='caret'></span></a>");
+document.writeln("					<ul class='dropdown-menu'>");
+document.writeln("						<li class='dropdown-submenu'><a>昔日回憶<span class='caret'></span></a>");
+document.writeln("							<ul class='dropdown-menu'>");
+document.writeln("								<li><a>-小巨人- 有安杏果</a></li>");
+document.writeln("								<li><a>-阿卡琳- 早見朱莉</a></li>");
+document.writeln("							</ul>");
+document.writeln("						</li>");
+document.writeln("						<li><a>桃草武士</a></li>");
+document.writeln("					</ul>");
+document.writeln("				</li>");
+
 document.writeln("				<li><a href='https://garymomoindex.github.io/link'>情報 -繫-</a></li>");
 document.writeln("				<li><a href='https://garymomoindex.github.io/about'>關於</a></li>");
 document.writeln("			</ul>");
