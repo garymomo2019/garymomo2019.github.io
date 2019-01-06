@@ -17,8 +17,8 @@
 
 		$(".mainContain").css("height","auto");
 		if($(window).height() > $(".mainContain").css("height").substring(0, $(".mainContain").css("height").indexOf("px"))) {
-			setheight = $(window).height();
-			$(".mainContain").css("height", setheight);
+//			setheight = $(window).height();
+//			$(".mainContain").css("height", setheight);
 		}
 
 		if (width != ori_width) {
