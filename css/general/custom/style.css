@@ -134,7 +134,7 @@ a, a:link, a:visited, a:hover {
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 	font-family: "Noto Sans TC", sans-serif;
 	font-weight: 900;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 .music-list-detail {
 	line-height: 2.5rem;
