@@ -39,6 +39,35 @@ a, a:link, a:visited, a:hover {
 	text-decoration: none;
 }
 
+.modal-content {
+	border-radius: 2rem 2rem 2rem 2rem;
+	box-shadow: 5rem 1rem 15rem #000000;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.modal-header {
+	background-color: #000000;
+	border-radius: 2rem 2rem 0px 0px;
+}
+.modal-header .close {
+	color: #ffffff;
+	opacity: 1;
+}
+.modal-title {
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	padding-left: 15px;
+}
+.modal-body {
+	background-color: #ffffff;
+	border-radius: 0px 0px 2rem 2rem;
+}
+.modal-body .row {
+	padding-left: 10px;
+}
+.modal-body-button {
+	margin-top: 5rem;
+}
+
 .music-items {
 	width: 80%;
 	margin-left: 10%;
@@ -218,7 +247,7 @@ a, a:link, a:visited, a:hover {
 	text-align: right;
 }
 .music-extra-detail a, .music-extra-detail a:link, .music-extra-detail a:visited, .music-extra-detail a:hover {
-	color: #aaaaaa;
+	color: #ffbbee;
 	cursor: pointer;
 }
 .music-extra-items {

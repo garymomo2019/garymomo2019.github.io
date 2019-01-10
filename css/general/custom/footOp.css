@@ -1,21 +1,21 @@
-.back-to {
-	width: 120px;
-	height: 35px;
-	bottom: 0px;
-	display: block;
-	margin: 0;
+.footer-option {
 	text-align: center;
 	line-height: 1.6rem;
 	position: fixed;
+	width: 120px;
+	bottom: 0px;
+	right: 15px;
+	color: #ffffff;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+	margin: 0;
+}
+
+.back-to {
+	width: 120px;
+	height: 35px;
 	z-index: 100;
-	color: #000000;
 	background-color: #888888;
-	-moz-background-size: 60%;
-	-o-background-size: 60%;
-	-webkit-background-size: 60%;
 	background-size: 60%;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid #000000;
 }
@@ -24,63 +24,45 @@
 }
 .anchor2 b, #datatimeNum {
 	position: relative;
-	top: -5px;
+	top: -4px;
 }
 .option-lr {
 	font-size: 2.4rem;
 	padding: 0px;
 	margin: 0px;
+	top: 4px;
 }
 .glyphicon-search {
-	color: #000000;
+	color: #ffbbee;
 	font-size: 2.4rem;
-	top: 2px;
+	top: 3px;
 }
-@media (min-width: 1201px) {
-	.back-to {
-		right: 50%;
-		margin-right: -580px;
-	}
-	.anchor1 {
-		margin-bottom: 102px;
-	}
-	.anchor2 {
-		margin-bottom: 66px;
-	}
-	.anchor3 {
-		margin-bottom: 30px;
-	}
+
+.footer-option figure {
+	position: absolute;
+	bottom: 100px;
+	right: 95px;
+	margin-bottom: 0;
+	cursor: pointer;
 }
-@media (max-width: 1200px) {
-	.back-to {
-		right: 30px;
-		margin-right: 0;
-	}
-	.anchor1 {
-		margin-bottom: 102px;
-	}
-	.anchor2 {
-		margin-bottom: 66px;
-	}
-	.anchor3 {
-		margin-bottom: 30px;
-	}
+.footer-option figure img {
+	background-color: black;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	z-index: 101;
 }
-@media (max-width: 639px) {
-	.back-to {
-		right: 15px;
-	}
-	.anchor1 {
-		margin-bottom: 87px;
-	}
-	.anchor2 {
-		margin-bottom: 51px;
-	}
-	.anchor3 {
-		margin-bottom: 15px;
-	}
+
+.footer-option a, .footer-option a:link, .footer-option a:visited {
+	color: #ffffff;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+.footer-option a:hover {
+	color: #ffbbee;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
 }
 .back-to:hover, .glyphicon-search:hover {
-	color: #ffffff;
-	border-color: #ffffff;
+	color: #ffbbee;
+	border-color: #ffbbee;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
 }

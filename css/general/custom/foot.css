@@ -1,8 +1,9 @@
 .momofoot {
 	background-color: #000000;
-	border-color: #000000;
+	background-image: linear-gradient(#000000 70%, #ffbbee 95%);
 	height: auto;
-	color: #ffffff;
+	color: #000000;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 	text-align: center;
 	line-height: 2rem;
 	font-size: 1.5rem;
@@ -12,6 +13,6 @@
 }
 
 .momofoot a, .momofoot a:link, .momofoot a:visited, .momofoot a:hover {
-	color: #aaaaaa;
+	color: #777777;
 	text-decoration: none;
 }

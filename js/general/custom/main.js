@@ -3,6 +3,10 @@
 	var ori_width = "0";
 	var setheight = "0";
 	var actionRLock = false;
+	var footOpWidth = null;
+	var offset = 10;
+	var value = 0;
+	var footOpToggle = false;
 
 	resize();
 	$(window).on("resize", resize);
@@ -23,6 +27,13 @@
 			} else {
 				$(".container-fluid").css("padding-right", "15px");
 				$(".container-fluid").css("padding-left", "15px");
+			}
+
+			footOpWidth = $(".footer-option").css("width");
+			value = parseInt(footOpWidth.substring(0, footOpWidth.indexOf("px"))) - offset;
+
+			if (footOpToggle) {
+				$(".footer-option").css("right", value * (-1));
 			}
 		}
 		ori_width = width;
@@ -49,10 +60,9 @@
 	});
 
 	var memberTL = new TimelineMax({ repeat: -1 });
-	memberTL.to($(".items-member"), 3, { autoAlpha: 0.75, scale: 0.95 })
-	.to($(".items-member"), 2, { autoAlpha: 1, scale: 1 });
+	memberTL.from($(".items-member"), 0.5, { skewX:360, ease:Expo.easeIn }, "+=5");
 
-	$(".tags span").on("click tap", function() {
+	$(".tags-item").on("click tap", function() {
 		if (actionRLock) {
 			return;
 		}
@@ -67,10 +77,44 @@
 			TweenLite.from($("#collapseParent ." + target + ":not(.item-disable)"), 0.8, { rotation: 90, autoAlpha: 0.1, onComplete:finishActionR });
 		}
 	});
-	
+
 	function finishActionR() {
 		actionRLock = false;
 	}
+
+	$(".footer-option figure").on("click tap", function() {
+		if (footOpToggle) {
+			footOpToggle = false;
+			videoGearTL = new TimelineMax();
+			indexVideoTL = new TimelineMax();
+
+			$(".footer-option figure img").attr("title", "收起");
+
+			videoGearTL.to($(".footer-option figure img"), 1.5, {
+				rotation : 0
+			});
+
+			indexVideoTL.to($(".footer-option"), 0.5, {
+				right : 15,
+				ease : Back.easeOut
+			});
+		} else {
+			footOpToggle = true;
+			videoGearTL = new TimelineMax();
+			indexVideoTL2 = new TimelineMax();
+			
+			$(".footer-option figure img").attr("title", "彈出");
+
+			videoGearTL.to($(".footer-option figure img"), 1.5, {
+				rotation : 360
+			});
+
+			indexVideoTL2.to($(".footer-option"), 0.5, {
+				right : (value * (-1) + 3),
+				ease : Bounce.easeOut
+			});
+		}
+	});
 });
 
 $(window).on("load", function() {

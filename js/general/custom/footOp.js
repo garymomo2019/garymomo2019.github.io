@@ -1,7 +1,7 @@
 ﻿$(document).ready(function() {
 	var optionNum = $("#datatimeNum");
 
-	$(".glyphicon-triangle-left").on("click tap", function() {
+	$(".glyphicon-minus-sign").on("click tap", function() {
 		var num = parseInt(optionNum.text());
 		num--;
 		if (num < 1) {
@@ -10,7 +10,7 @@
 		optionNum.text(num);
 	});
 
-	$(".glyphicon-triangle-right").on("click tap", function() {
+	$(".glyphicon-plus-sign").on("click tap", function() {
 		var num = parseInt(optionNum.text());
 		num++;
 		if (num > 12) {
