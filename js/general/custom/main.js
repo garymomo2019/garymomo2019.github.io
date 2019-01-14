@@ -76,6 +76,11 @@
 			$("#collapseParent ." + target + ":not(.item-disable)").css("opacity", "1").show();
 			TweenLite.from($("#collapseParent ." + target + ":not(.item-disable)"), 0.8, { rotation: 90, autoAlpha: 0.1, onComplete:finishActionR });
 		}
+
+		var shiftTop = $("#collapseParent ." + target + ":not(.item-disable):eq(0)");
+		if (shiftTop != null && shiftTop != "" && typeof shiftTop != "undefined") {
+			$("html, body").animate({scrollTop: shiftTop.offset().top}, 0);
+		}
 	});
 
 	function finishActionR() {
