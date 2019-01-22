@@ -140,6 +140,8 @@ $(window).on("load", function() {
 		extraTL.from($(".music-extra-title"), 1, { y: -200, autoAlpha: 0 })
 		.from($(".music-extra-audit"), 1, { x: 400, autoAlpha: 0 }, "-=1")
 		.from($(".music-extra-video"), 1, { scale: 0.1, autoAlpha: 0 }, "-=1")
-		.from($(".music-extra-detail"), 1, { x: -200, autoAlpha: 0 }, "-=1");
+		.from($(".music-extra-detail"), 1, { x: -200, autoAlpha: 0 }, "-=1")
+		.from($(".music-extra-line-ext"), 0.3, { autoAlpha: 0 })
+		.from($(".music-extra-line"), 1, { autoAlpha: 0 });
 	}
 });

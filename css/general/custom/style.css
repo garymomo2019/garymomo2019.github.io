@@ -255,3 +255,13 @@ a, a:link, a:visited, a:hover {
 .music-extra-items {
 	opacity: 0;
 }
+.music-extra-line {
+	border-color: #ffbbee;
+	border-style: dashed;
+}
+.music-extra-line-ext {
+	border-color: #ffbbee;
+	border-width: 3px;
+	border-radius: 3rem;
+	width: 85%;
+}
