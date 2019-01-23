@@ -209,6 +209,15 @@ a, a:link, a:visited, a:hover {
 	border-radius: 9rem;
 	opacity: 0;
 }
+.music-extra-box .col-sm-2 {
+	background:
+		linear-gradient(to right, rgba(0,0,0,0) 0%, #ffbbee 30%, rgba(0,0,0,0) 60%)
+		left
+		bottom
+		no-repeat;
+	background-size: 98% 2px;
+	margin-bottom: 20px;
+}
 .music-extra-title {
 	padding-top: 8rem;
 	padding-left: 12%;
