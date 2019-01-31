@@ -276,8 +276,9 @@ a, a:link, a:visited, a:hover {
 }
 
 .live-record-all {
-	color: #ffffff;
+	color: #000000;
 	font-family: "Noto Sans TC", sans-serif;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 	font-weight: 900;
 }
 .live-record-intro {
