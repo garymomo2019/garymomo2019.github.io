@@ -30,17 +30,19 @@
 			}
 
 			footOpWidth = $(".footer-option").css("width");
-			value = parseInt(footOpWidth.substring(0, footOpWidth.indexOf("px"))) - offset;
+			if (footOpWidth != null && footOpWidth != "" && typeof footOpWidth != "undefined") {
+				value = parseInt(footOpWidth.substring(0, footOpWidth.indexOf("px"))) - offset;
 
-			if (footOpToggle) {
-				$(".footer-option").css("right", value * (-1));
+				if (footOpToggle) {
+					$(".footer-option").css("right", value * (-1));
+				}
 			}
 		}
 		ori_width = width;
 	}
 
 	var fontTL = new TimelineMax({repeat: -1});
-	var fTLTime = 8;
+	var fTLTime = 12;
 
 	fontTL.to($(".colorControl"), fTLTime, {
 		css : {color : "#f596aa", borderColor: "#f596aa"},

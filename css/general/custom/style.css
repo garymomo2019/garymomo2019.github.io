@@ -274,3 +274,43 @@ a, a:link, a:visited, a:hover {
 	border-radius: 3rem;
 	width: 85%;
 }
+
+.live-record-all {
+	color: #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.live-record-intro {
+	color: #000000;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #ffbbee;
+}
+.live-record-title p {
+	font-size: 300%;
+}
+.live-record-author {
+	text-align: right;
+}
+.live-record-desc p {
+	text-indent: 2em;
+	line-height: 3rem;
+}
+.live-record-detail {
+	margin-top: 4rem;
+	margin-bottom: 7rem;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.live-record-detail p {
+	text-indent: 2em;
+	line-height: 3rem;
+}
+.live-record-subtitle {
+	font-size: 2.1rem;
+	color: #986db2;
+}

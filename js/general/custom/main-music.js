@@ -38,7 +38,7 @@
 	}
 
 	var fontTL = new TimelineMax({repeat: -1});
-	var fTLTime = 8;
+	var fTLTime = 12;
 
 	fontTL.to($(".colorControl"), fTLTime, {
 		css : {color : "#f596aa", borderColor: "#f596aa"},
