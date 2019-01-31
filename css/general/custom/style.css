@@ -277,8 +277,8 @@ a, a:link, a:visited, a:hover {
 
 .live-record-all {
 	color: #000000;
-	font-family: "Noto Sans TC", sans-serif;
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
 	font-weight: 900;
 }
 .live-record-intro {
@@ -299,7 +299,7 @@ a, a:link, a:visited, a:hover {
 }
 .live-record-desc p {
 	text-indent: 2em;
-	line-height: 3rem;
+	line-height: 4rem;
 }
 .live-record-detail {
 	margin-top: 4rem;
@@ -309,9 +309,10 @@ a, a:link, a:visited, a:hover {
 }
 .live-record-detail p {
 	text-indent: 2em;
-	line-height: 3rem;
+	line-height: 4rem;
+	font-size: 120%;
 }
 .live-record-subtitle {
-	font-size: 2.1rem;
+	font-size: 180%!important;
 	color: #986db2;
 }
