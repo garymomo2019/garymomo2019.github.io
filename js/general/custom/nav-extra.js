@@ -17,7 +17,7 @@ document.writeln("					<ul class='dropdown-menu' id='momoNavTime'>");
 document.writeln("						<li><a href='https://garymomo2019.github.io/'>2019 -鑽石意志-</a></li>");
 document.writeln("						<li><a href='https://garymomo2018.github.io/'>2018 -守護四葉-</a></li>");
 document.writeln("						<li><a href='https://garymomo2017.github.io/'>2017 -綠意青春-</a></li>");
-//document.writeln("						<li><a href='https://garymomo2016.github.io/redirection/'>2016 -自由獨行-</a></li>");
+document.writeln("						<li><a href='https://garymomo2016.github.io/redirection/'>2016 -自由獨行-</a></li>");
 //document.writeln("						<li><a href='https://garymomo2015.github.io/'>2015 -影音勇進-</a></li>");
 //document.writeln("						<li><a href='https://garymomo2014.github.io/'>2014 -飛躍國立-</a></li>");
 //document.writeln("						<li><a href='https://garymomo2013.github.io/'>2013 -反轉次元-</a></li>");
@@ -26,7 +26,6 @@ document.writeln("						<li><a href='https://garymomo2017.github.io/'>2017 -綠�
 //document.writeln("						<li><a href='https://garymomo2010.github.io/'>2010 -突圍怪盜-</a></li>");
 //document.writeln("						<li><a href='https://garymomo2009.github.io/'>2009 -舟車苦行-</a></li>");
 //document.writeln("						<li><a href='https://garymomo2008.github.io/'>2008 -破土萌芽-</a></li>");
-document.writeln("						<li><a href='https://garymomo2008.github.io/unwork'>2016 -自由獨行-(未完成)</a></li>");
 document.writeln("						<li><a href='https://garymomo2008.github.io/unwork'>2015 -影音勇進-(未完成)</a></li>");
 document.writeln("						<li><a href='https://garymomo2008.github.io/unwork'>2014 -飛躍國立-(未完成)</a></li>");
 document.writeln("						<li><a href='https://garymomo2008.github.io/unwork'>2013 -反轉次元-(未完成)</a></li>");
