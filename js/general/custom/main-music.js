@@ -116,32 +116,55 @@
 			location.replace("https://garymomoindex.github.io/?visit=true");
 		}
 	});
+
+	$(".btn-modal").on("click tap", function() {
+		var htmlIframe1 = '<iframe src="https://www.youtube.com/embed/';
+		var htmlIframe2 = '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+		var htmlIframeSrc = '';
+		var chkId = $(this).attr("id");
+		if (chkId == 'adModala2-1') {
+			htmlIframeSrc = 'CQcGkUOpfwQ';
+		} else if (chkId == 'adModala2-2') {
+			htmlIframeSrc = '_siE3FVlRYY';
+		} else if (chkId == 'adModala2-3') {
+			htmlIframeSrc = 'slEBbLowmus';
+		} else if (chkId == 'adModalb4-1') {
+			htmlIframeSrc = 'Wg4-PnXzm2c';
+		} else if (chkId == 'adModalb4-2') {
+			htmlIframeSrc = 'UtnwTHu0wqY';
+		} else if (chkId == 'adModalb7-1') {
+			htmlIframeSrc = 'rhkgWd1zKM8';
+		} else if (chkId == 'adModalb7-2') {
+			htmlIframeSrc = 'K2pblnWTs3Q';
+		} else if (chkId == 'adModalb7-3') {
+			htmlIframeSrc = '-_gyAJdVSPI';
+		} else if (chkId == 'adModalb7-4') {
+			htmlIframeSrc = 'QEERASnBeJI';
+		} else if (chkId == 'adModalb7-5') {
+			htmlIframeSrc = 'U_alZ_YOIUc';
+		} else if (chkId == 'adModalb7-6') {
+			htmlIframeSrc = 'AzWGjczSi9s';
+		} else if (chkId == 'adModala102') {
+			htmlIframeSrc = '83rAKGM0FkY';
+		}
+		$("#adModal").find("#video-block").append(htmlIframe1 + htmlIframeSrc + htmlIframe2);
+	});
+
+	$("#adModal").on("hide.bs.modal", function() {
+		$(this).find("#video-block").empty();
+	});
 });
 
 $(window).on("load", function() {
 
 	$(".loader").hide();
 
-	var borderTL = new TimelineMax({ onComplete : nextMusicExtra });
+	var extraTL = new TimelineMax();
 
-	borderTL.to($(".music-extra-box"), 0.5, {
-		alpha : 0.5
-	})
-	.to($(".music-extra-box"), 0.8, {
-		alpha: 0, ease: Elastic.easeIn.config(1, 0.2)
-	}, "+=0.5")
-	.to($(".music-extra-box"), 0.3, {
-		alpha: 1
-	});
-
-	function nextMusicExtra() {
-		$(".music-extra-items").css("opacity", "1");
-		var extraTL = new TimelineMax();
-		extraTL.from($(".music-extra-title"), 1, { y: -200, autoAlpha: 0 })
-		.from($(".music-extra-audit"), 1, { x: 400, autoAlpha: 0 }, "-=1")
-		.from($(".music-extra-video"), 1, { scale: 0.1, autoAlpha: 0 }, "-=1")
-		.from($(".music-extra-detail"), 1, { x: -200, autoAlpha: 0 }, "-=1")
-		.from($(".music-extra-line-ext"), 0.3, { autoAlpha: 0 })
-		.from($(".music-extra-line"), 1, { autoAlpha: 0 });
-	}
+	extraTL.from($(".music-extra-title"), 1, { y: -200, autoAlpha: 0 })
+	.from($(".music-extra-audit"), 1, { x: 400, autoAlpha: 0 }, "-=1")
+	.from($(".music-extra-video"), 1, { scale: 0.1, autoAlpha: 0 }, "-=1")
+	.from($(".music-extra-detail"), 1, { x: -200, autoAlpha: 0 }, "-=1")
+	.from($(".music-extra-line-ext"), 0.3, { autoAlpha: 0 })
+	.from($(".music-extra-line"), 1, { autoAlpha: 0 });
 });

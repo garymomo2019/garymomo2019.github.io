@@ -201,13 +201,11 @@ a, a:link, a:visited, a:hover {
 	margin-left: 3%;
 	margin-right: 3%;
 	color: #000000;
-	box-shadow: 2px 2px 5rem 3rem #ffffff;
-	background-image: radial-gradient(#000000 60%, #ffffff 100%);
+	box-shadow: 2px 2px 5rem 1rem #ffffff;
 	font-family: "Noto Sans TC", sans-serif;
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 	font-weight: 900;
 	border-radius: 9rem;
-	opacity: 0;
 }
 .music-extra-box .col-sm-2 {
 	background:
@@ -265,9 +263,6 @@ a, a:link, a:visited, a:hover {
 .music-extra-detail a, .music-extra-detail a:link, .music-extra-detail a:visited, .music-extra-detail a:hover {
 	color: #ffbbee;
 	cursor: pointer;
-}
-.music-extra-items {
-	opacity: 0;
 }
 .music-extra-line {
 	border-color: #ffbbee;
