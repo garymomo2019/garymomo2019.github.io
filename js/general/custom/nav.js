@@ -14,7 +14,7 @@ document.writeln("			<ul class='nav navbar-nav'>");
 document.writeln("				<li class='dropdown'>");
 document.writeln("					<a class='dropdown-toggle' data-toggle='dropdown'>穿越 -時-<span class='caret'></span></a>");
 document.writeln("					<ul class='dropdown-menu' id='momoNavTime'>");
-document.writeln("						<li><a href='https://garymomo2020.github.io/'>2020 -未定-</a></li>");
+document.writeln("						<li><a href='https://garymomo2020.github.io/'>2020 -世界戰疫-</a></li>");
 document.writeln("						<li><a href='https://garymomo2019.github.io/'>2019 -鑽石意志-</a></li>");
 document.writeln("						<li><a href='https://garymomo2018.github.io/'>2018 -守護四葉-</a></li>");
 document.writeln("						<li><a href='https://garymomo2017.github.io/'>2017 -綠意青春-</a></li>");
