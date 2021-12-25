@@ -14,6 +14,7 @@ document.writeln("			<ul class='nav navbar-nav'>");
 document.writeln("				<li class='dropdown'>");
 document.writeln("					<a class='dropdown-toggle' data-toggle='dropdown'>穿越 -時-<span class='caret'></span></a>");
 document.writeln("					<ul class='dropdown-menu' id='momoNavTime'>");
+document.writeln("						<li><a href='https://garymomo2022.github.io/'>2022 -未定-</a></li>");
 document.writeln("						<li><a href='https://garymomo2021.github.io/'>2021 -時運多舛-</a></li>");
 document.writeln("						<li><a href='https://garymomo2020.github.io/'>2020 -世界戰疫-</a></li>");
 document.writeln("						<li><a href='https://garymomo2019.github.io/'>2019 -鑽石意志-</a></li>");
@@ -54,6 +55,7 @@ document.writeln("					<a class='dropdown-toggle' data-toggle='dropdown'>傾聽 
 document.writeln("					<ul class='dropdown-menu'>");
 document.writeln("						<li class='dropdown-submenu'><a>依年份<span class='caret'></span></a>");
 document.writeln("							<ul class='dropdown-menu'>");
+document.writeln("								<li><a href='https://garymomo2021.github.io/music'>&nbsp;&nbsp;&nbsp;2021</a></li>");
 document.writeln("								<li><a href='https://garymomo2020.github.io/music'>&nbsp;&nbsp;&nbsp;2020</a></li>");
 document.writeln("								<li><a href='https://garymomo2019.github.io/music'>&nbsp;&nbsp;&nbsp;2019</a></li>");
 document.writeln("								<li><a href='https://garymomo2018.github.io/music'>&nbsp;&nbsp;&nbsp;2018</a></li>");
