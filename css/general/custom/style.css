@@ -137,12 +137,12 @@ a, a:link, a:visited, a:hover {
 }
 
 .table-content-title {
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	color: #ffffff;
 	background-color: #232323;
 }
 .table-content-sub {
-	font-size: 1rem;
+	font-size: 0.7rem;
 }
 .table-content-extra-line-ext {
 	border-color: #000000;
@@ -191,6 +191,9 @@ a, a:link, a:visited, a:hover {
 }
 
 .momo-font-family {
-	font-family: "Wendy One", "Reggae One", cursive, "Noto Sans TC", sans-serif;
-	font-size: 1.4rem;
+	font-family: "Wendy One", "Reggae One", "Noto Sans TC";
+	font-size: 0.9rem;
+}
+.momo-font-family tbody .btn-sm {
+	font-size: 0.6rem;
 }
